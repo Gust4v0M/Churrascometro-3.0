@@ -31,16 +31,19 @@ function calcula() {
       var qntTotalBebidas = carnePP(tempo) * adultos + (carnePP(tempo) / 2) * criancas;
 
       escrita.innerHTML =
-      `<h2> Você vai preciar de</h2>`
+      `<h3> Você vai preciar de</h3>` 
         
-      escrita.innerHTML = 
-      `<p>${qntTotalCarne / 1000} Kg de carne</p>` 
+      escrita.innerHTML += 
+    `<img class= "icon meet" src="./asstes/steak.png" alt="Stake of meet" height="30px">
+      <p>${qntTotalCarne / 1000} Kg de carne</p> <br>` 
 
       escrita.innerHTML += 
-      ` <p>${Math.ceil(qntTotalCerveja / 350)} latinhas de cerveja</p>`
+      ` <img class= "icon beer" src="./asstes/beer.png" alt="beer can" height="30px">
+      <p>${Math.ceil(qntTotalCerveja / 350)} latinhas de cerveja</p> <br>`
 
       escrita.innerHTML += 
-      ` <p>${qntTotalBebidas / 1000} litros de suco</p>`
+      ` <img class= "icon water" src="./asstes/water.png" alt="bottle of whater" height="30px">
+      <p>${qntTotalBebidas / 1000} litros de água</p>`
       
 }
 

@@ -1,6 +1,20 @@
 *{
     margin: 0px;
     padding: 0px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+
+body{
+/* background-image: linear-gradient( 0deg,
+#00bcc2,
+#a928e7);
+overflow: auto;
+overflow: hidden; */
+
+background-color: #a928e7;
+
 }
 
 h1{
@@ -9,12 +23,15 @@ h1{
 }
 
 .square{
-    background-color: aquamarine;
+    background-image: linear-gradient( 0deg,
+    #a928e7,
+    #00bcc2);
     max-width: 300px;
     margin: auto;
-    text-align: center;
+    text-align: center; 
     padding: 10px;
     box-sizing: border-box;
+ 
 }
 
 input{
@@ -24,4 +41,9 @@ input{
     margin: 10px
 }
 
+
+p{
+    display: inline-block;
+    margin-top: 10px;
+}
 
