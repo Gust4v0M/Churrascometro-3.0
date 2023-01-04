@@ -6,3 +6,7 @@ Este é um projeto onde calcula a quantodade de materias que você irá precisar
 Segue uma previw do projeto
 
 ![image](https://user-images.githubusercontent.com/101583479/210652710-8ce930b1-9448-472c-922a-9ce730f59087.png)
+
+Folow de the link for the project:
+
+https://gust4v0m.github.io/Churrascometro-3.0/
